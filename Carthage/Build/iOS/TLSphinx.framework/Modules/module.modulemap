@@ -1,0 +1,10 @@
+framework module TLSphinx {
+  umbrella header "TLSphinx.h"
+
+  export *
+  module * { export * }
+}
+
+module TLSphinx.Swift {
+    header "TLSphinx-Swift.h"
+}
